@@ -1,0 +1,41 @@
+# Go build
+/bin/
+/dist/
+/build/
+*.exe
+*.out
+*.test
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Env / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Local config
+config.local.yaml
+config.local.json
+
+# DB / cache
+*.sqlite
+*.db
+
+# Coverage
+coverage.out
+
+# Vendor (如果不用 vendor 就忽略)
+# /vendor/
+
+# K8s rendered manifests (如果你会生成临时yaml)
+*.rendered.yaml
